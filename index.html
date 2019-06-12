@@ -15,23 +15,27 @@
 <body>
     <nav class="navbar">
         <ul class="navbar-nav">
-            <li class="nav-item"><a href="" class="nav-link">STRONA GŁÓWNA</a></li>
-            <li class="nav-item"><a href="" class="nav-link">O KANCELARII</a></li>
-            <li class="nav-item"><a href="" class="nav-link">OFERTA</a></li>
-            <li class="nav-item"><a href="" class="nav-link">KONTAKT</a></li>
-            <li class="nav-item"><a href="" class="nav-link">BLOG</a></li>
-            <li class="nav-item ">
-                <div class="toggler">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-            </li>
+            <li class="nav-item"><a href="#" class="nav-link" id="home">STRONA GŁÓWNA</a></li>
+            <li class="nav-item"><a href="#" class="nav-link" id="about">O KANCELARII</a></li>
+            <li class="nav-item"><a href="#" class="nav-link" id="offer">OFERTA</a></li>
+            <li class="nav-item"><a href="#" class="nav-link" id="contact">KONTAKT</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">BLOG</a></li>
+
+
+
+
         </ul>
+
+
+        <div class="toggler">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
     </nav>
 
 
-    <header>
+    <header data-section="home">
         <div class="header-mask">
             <div class="header-content">
                 <img class="brand-logo" src="images/logo.png" alt="">
@@ -45,7 +49,7 @@
 
     </header>
     <main>
-        <section class="section-about">
+        <section data-section="about" class="section-about">
 
             <div class="img-about"><img src="images/lawyer.png" alt=""></div>
             <div class="info">
@@ -81,7 +85,7 @@
 
         </section>
 
-        <section class="section-offer">
+        <section data-section="offer" class="section-offer">
 
             <h1 class="offer">Oferta</h1>
             <div class="offer-more">
@@ -130,7 +134,7 @@
 
         </section>
 
-        <section class="contact">
+        <section data-section="contact" class="contact">
             <div class="contact-form">
                 <h1>SKONTAKTUJ SIĘ</h1>
                 <p>Napisz do nas, jeśli potrzebujesz <br>
@@ -185,6 +189,8 @@
 
 
     <script src="js/jquery.js"></script>
+    <script src="js/mobile.js"></script>
+    <script src="js/scroll.js"></script>
     <script src="js/popper.js"></script>
     <script src="js/bootstrap.js"></script>
 </body>
