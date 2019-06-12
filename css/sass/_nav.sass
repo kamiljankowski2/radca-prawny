@@ -1,0 +1,74 @@
+nav
+     min-height: 50px
+     max-height: 50px
+     overflow: hidden
+     position: sticky
+     top: 0
+     background-color: white
+     box-shadow: 0px 3px 5px -4px rgba(0,0,0,0.75)
+     z-index: 999
+     
+     ul.navbar-nav
+            width: 100%
+            display: flex
+            justify-content: center
+            padding: 0
+            margin: 0
+            list-style-type: none
+            
+        
+
+            a.nav-link
+                display: block
+                padding: 15px 20px 5px 20px
+                
+                text-decoration: none
+                color: black
+            a.nav-link:hover
+                border-bottom: #B68F39 solid 2px
+            .toggler
+                padding: 15px
+                position: absolute
+                right: 10px
+                display: none
+                
+                span
+                    display: block
+                    width: 24px
+                    height: 2px
+                    background-color: black
+                    margin: 4px
+@media (max-width: 1024px)
+
+            nav
+                
+                ul.navbar-nav
+                        width: 100%
+                        display: flex
+                        justify-content: center
+                        padding: 0
+                        margin: 0
+                        list-style-type: none
+                        
+                    
+
+                        a.nav-link
+                            display: block
+                            padding: 15px 20px 5px 20px
+                            display: none
+                            text-decoration: none
+                            color: black
+                        a.nav-link:hover
+                            border-bottom: #B68F39 solid 2px
+                        .toggler
+                            padding: 15px
+                            position: absolute
+                            right: 10px
+                            display: block
+                        
+                        span
+                            display: block
+                            width: 24px
+                            height: 2px
+                            background-color: black
+                            margin: 4px

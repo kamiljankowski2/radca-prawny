@@ -1,0 +1,455 @@
+main
+        section
+            margin: 25px 0 0 0 
+            h1
+                font-family: 'Cinzel', serif
+                font-weight: 300
+                text-transform: uppercase
+                font-size: 2em
+                text-align: center
+    
+        section.section-about
+            display: flex
+            justify-content: center
+            .img-about, .img-office
+                width: 500px
+                height: 500px
+                border: 3px solid #B68F39
+                border-bottom: none
+                border-left: none
+                flex-basis:
+                padding: 20px 20px 0 0 
+                margin: 30px
+            
+                img 
+                    width: 500px
+            .img-office
+                border-right: none
+                border-left: 3px solid #B68F39
+                padding: 20px 0 0 20px
+            .info
+                flex-basis: 45%
+                margin: 0 10px 
+                 
+                p
+                    text-align: justify
+                    font-size: 1.5em
+                    font-weight: 200
+        section.section-offer
+            margin-bottom: 200px
+            display: flex
+            justify-content: center
+            flex-wrap: wrap
+            margin: 25px 0 25px 0
+            h1.offer
+                width: 100%
+                
+            
+
+            .offer-less
+                width: 40%
+                display: flex
+                flex-wrap: wrap
+                justify-content: space-between
+                margin: 0 0 0 40px
+                
+                
+                .offer-less-item:nth-of-type(1)
+                    width: 100%
+                    height: 308px
+                    background-image: url(../images/civillaw.jpg)
+                    margin: 0
+                    h1
+                            
+                            font-size: 2.5em
+                .offer-less-item
+                    width: 48%
+                    height: 200px
+                    margin: 21px 0 0 0 
+                    background-position: center
+                    background-size: cover
+                    background-repeat: no-repeat
+                    background-color: black
+                    display: flex
+                    justify-content: center
+                    align-items: center
+                    color: white
+                    h1
+                        font-size: 1.3em
+                    a
+                        display: block
+                        width: 100%
+                        height: 100%
+                        color: white
+                        text-decoration: none
+                        display: flex
+                        justify-content: center
+                        align-items: center
+                        transition: 1s
+                    
+                        .mask
+                            background-color: rgba(0,0,0, 0.6)
+                            width: 100%
+                            height: 100%
+                            display: flex
+                            justify-content: center
+                            align-items: center
+                            flex-wrap: wrap
+                            transition: .5s
+                           
+
+                    a:hover 
+                        background-color: rgba(0,0,0, 0.7)
+                        
+                    
+                        
+                        
+ 
+                .offer-less-item:nth-of-type(2)
+                    background-image: url(../images/tax.jpg)
+                   
+                .offer-less-item:nth-of-type(3)
+                    background-image: url(../images/family.jpg)
+                .offer-less-item:nth-of-type(4)
+                    background-image: url(../images/work.jpg)
+                .offer-less-item:nth-of-type(5)
+                    background-image: url(../images/administration.jpg)
+            .offer-more
+                width: 40%
+                height: 750px
+                background-position: center
+                background-size: cover
+                background-repeat: no-repeat
+                background-image: url(../images/business.jpg)
+                .offer-more-item
+                    width: 100%
+                    height: 100%
+                    background-position: center
+                    background-size: cover
+                    background-repeat: no-repeat
+                    background-image: url(../images/business.jpg)
+
+                    a
+                        width: 100%
+                        height: 100%
+                        display: flex
+                        justify-content: center
+                        align-items: center
+                        text-decoration: none
+                        color: white
+                        transition: 1s
+                       
+
+                        .mask
+                                background-color: rgba(0,0,0, 0.6)
+                                width: 100%
+                                height: 100%
+                                display: flex
+                                justify-content: center
+                                align-items: center
+                                flex-wrap: wrap
+                                align-content: center
+                                margin: 0
+                                p
+                                    text-align: center
+                                    margin: 0 100px
+                                    opacity: 0
+                                    transition: 1s 0.1s
+                                h1
+                                    font-size: 3em
+                                    margin: 0
+                    a:hover 
+                        background-color: rgba(0,0,0, 0.7)
+                        p
+                            opacity: 1
+        section.contact
+            
+            margin: 50px 0 0 0
+            display: flex
+            justify-content: space-around
+            background-color: #F7F7F7
+            .contact-form
+                flex-basis: 49%
+                display: flex
+                
+                align-items: center
+                flex-direction: column
+                
+                p
+                    text-align: justify
+                    font-size: 2em
+                    margin: 0 0 40px 0
+                    font-weight: 200
+                form 
+                    display: flex
+                    flex-direction: column
+                    justify-content: center
+                    align-items: center
+                    
+                    
+                    
+                    input[type=text]
+                        border: none
+                        border-bottom: 2px solid #000E46
+                        font-size: 1.5em
+                        padding: 0 0 10px 10px
+                        margin: 0 0 20px 0
+                        width: 400px
+                        background-color: #F7F7F7
+                    input[placeholder]
+                        opacity: 0.5
+                    textarea 
+                        width: 400px
+                        border: none
+                        border-bottom: 2px solid #000E46
+                        background-color: #F7F7F7
+                    button[type=submit]
+                        background-color: transparent
+                        border: 2px solid #B68F39
+                        font-size: 1.2em
+                        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+                        text-transform: uppercase
+                        margin: 10px 0 0 0 
+                        padding: 5px
+                        width: 210px
+                        cursor: pointer
+        .contact-date
+            margin: 25px 0 0 0
+            flex-basis: 49%
+            h3
+                margin: 0 0
+                padding: 0
+                font-size: 1.4em
+                font-family: 'Cinzel', serif
+                font-weight: 500
+            h3.hours
+                margin: 10px 0 0 0 
+            p  
+                margin: 0 0 20px 0
+                padding: 0
+                font-size: 1.3em
+                font-weight: 100
+                a
+                    color: black
+                    text-decoration: none
+            iframe 
+                margin: 10px 0 
+        .line
+            width: 3px
+            height: 730px
+            background-color: #B68F39
+            margin: 29px 0
+
+@media (max-width: 1024px)
+    main
+        section
+            
+            h1
+                font-size: 1.3em
+                margin: 10px
+                
+    
+        section.section-about
+            flex-direction: column
+            align-items: center
+            h1
+                order: 1
+            
+            .img-about, .img-office
+                width: 300px
+                height: 300px
+                order: 2          
+                img 
+                    width: 300px
+                    
+            .info
+                
+                p
+                    
+                    font-size: 1.3em
+                    margin: 0 30px
+                    
+        section.section-offer
+            
+            flex-direction: column         
+            align-items: center
+            margin: 25px 0 0 0
+
+            h1.offer
+                width: 50%                
+            .offer-less
+                width: 90%
+                margin: 0 
+                .offer-less-item:nth-of-type(1)
+                    margin: 21px 0 0 0
+                    h1
+                        font-size: 2em
+                .offer-less-item
+                    width: 100%
+                    height: 308px
+                    margin: 21px 0 0 0 
+                    h1
+                        font-size: 2em
+                    a
+                        display: block
+                        width: 100%
+                        height: 100%
+                        color: white
+                        text-decoration: none
+                        display: flex
+                        justify-content: center
+                        align-items: center
+                        transition: 1s
+                    
+                        .mask
+                            background-color: rgba(0,0,0, 0.6)
+                            width: 100%
+                            height: 100%
+                            display: flex
+                            justify-content: center
+                            align-items: center
+                            flex-wrap: wrap
+                            transition: .5s
+                           
+
+                    a:hover 
+                        background-color: rgba(0,0,0, 0.7)
+                        
+                    
+                        
+                        
+ 
+                .offer-less-item:nth-of-type(2)
+                    background-image: url(../images/tax.jpg)
+                   
+                .offer-less-item:nth-of-type(3)
+                    background-image: url(../images/family.jpg)
+                .offer-less-item:nth-of-type(4)
+                    background-image: url(../images/work.jpg)
+                .offer-less-item:nth-of-type(5)
+                    background-color: #000E46
+            .offer-more
+                width: 90%
+                height: 308px
+                background-color: red
+                .offer-more-item
+                    width: 100%
+                    height: 100%
+                    background-position: center
+                    background-size: cover
+                    background-repeat: no-repeat
+                    background-image: url(../images/business.jpg)
+
+                    a
+                        width: 100%
+                        height: 100%
+                        display: flex
+                        justify-content: center
+                        align-items: center
+                        text-decoration: none
+                        color: white
+                        transition: 1s
+                       
+
+                        .mask
+                                background-color: rgba(0,0,0, 0.6)
+                                width: 100%
+                                height: 100%
+                                display: flex
+                                justify-content: center
+                                align-items: center
+                                flex-wrap: wrap
+                                align-content: center
+                                margin: 0
+                                p
+                                    text-align: center
+                                    margin: 0 100px
+                                    opacity: 0
+                                    display: none
+                                    transition: 1s 0.1s
+                                h1
+                                    font-size: 2em
+                                    margin: 0
+                   
+                        
+        section.contact
+            
+            margin: 50px 0 0 0
+            display: flex
+            flex-direction: column
+            align-items: center
+            justify-content: space-around
+            background-color: #F7F7F7
+            .contact-form
+                flex-basis: 49%
+                display: flex
+                
+                align-items: center
+                flex-direction: column
+                
+                p
+                    text-align: justify
+                    font-size: 1.5em
+                    margin: 0 0 40px 0
+                    font-weight: 200
+                form 
+                    display: flex
+                    flex-direction: column
+                    justify-content: center
+                    align-items: center
+                    
+                    
+                    
+                    input[type=text]
+                        border: none
+                        border-bottom: 2px solid #000E46
+                        font-size: 1.5em
+                        padding: 0 0 10px 10px
+                        margin: 0 0 20px 0
+                        width: 300px
+                        background-color: #F7F7F7
+                    input[placeholder]
+                        opacity: 0.5
+                    textarea 
+                        width: 300px
+                        border: none
+                        border-bottom: 2px solid #000E46
+                        background-color: #F7F7F7
+                    button
+                        background-color: red
+                        border: 2px solid #B68F39
+                        font-size: 1.2em
+                        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+                        text-transform: uppercase
+                        margin: 20px 0 0 0 
+                        padding: 5px
+                        width: 200px
+                    
+        .contact-date
+            margin: 0px 0 0 0
+            flex-basis: 49%
+            display: flex
+            flex-direction: column
+            align-items: center
+            h3
+                margin: 0 0
+                padding: 0
+                font-size: 1.5em
+           
+            p  
+                margin: 0 0 20px 0
+                padding: 0
+                font-size: 1.5em
+                a   
+                    display: inline-block
+                    margin: 0 20px
+
+                
+                
+                
+        .line
+            width: 90%
+            height: 3px
+            background-color: #B68F39
+            margin: 29px 0
+            
