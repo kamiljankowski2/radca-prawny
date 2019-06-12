@@ -4,5 +4,6 @@ $('a.nav-link').on('click', function () {
         scrollTop: ($(goToSection).offset().top) - 50 + "px"
     })
 
-    $("ul.navbar-nav").removeClass("active")
+    $("ul.navbar-nav").toggleClass("active")
+    $(".toggler").toggleClass("mobileOn")
 })
