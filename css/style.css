@@ -1009,6 +1009,10 @@ footer .links {
   display: flex;
 }
 
+footer .links a {
+  color: white;
+}
+
 footer .links i {
   font-size: 1.3em;
   margin: 0px 10px;
