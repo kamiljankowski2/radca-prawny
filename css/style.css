@@ -611,10 +611,14 @@ main .contact-date h3.hours {
   margin: 10px 0 0 0;
 }
 
+main .contact-date i {
+  font-size: 1.4em;
+}
+
 main .contact-date p {
   margin: 0 0 20px 0;
   padding: 0;
-  font-size: 1.3em;
+  font-size: 1.2em;
   font-weight: 100;
 }
 
@@ -912,7 +916,6 @@ main .line {
   main .contact-date p {
     margin: 0 0 20px 0;
     padding: 0;
-    font-size: 1.5em;
   }
   main .contact-date p a {
     display: inline-block;
