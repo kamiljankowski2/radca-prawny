@@ -844,7 +844,6 @@ main .line {
             flex-direction: column;
   }
   main section.contact .contact-form p {
-    text-align: justify;
     font-size: 1.5em;
     margin: 0 0 40px 0;
     font-weight: 200;
