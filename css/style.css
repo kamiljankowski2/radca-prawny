@@ -196,7 +196,7 @@ header .header-content h4 {
 }
 
 header .header-content img.brand-logo {
-  margin: 92px 0 0 0;
+  margin: 52px 0 0 0;
   width: 662px;
 }
 
@@ -210,7 +210,7 @@ header .header-content a.btn {
 }
 
 header .header-content img.kirp-logo {
-  margin: 30px 0 10px 0;
+  margin: 62px 0 10px 0;
   width: 150px;
 }
 
@@ -242,7 +242,6 @@ header .header-content img.kirp-logo {
     font-size: 0.8em;
   }
   header .header-content img.brand-logo {
-    margin: 92px 0 0 0;
     width: 350px;
   }
   header .header-content a.btn {
@@ -254,7 +253,6 @@ header .header-content img.kirp-logo {
     text-decoration: none;
   }
   header .header-content img.kirp-logo {
-    margin: 30px 0 10px 0;
     width: 120px;
   }
 }
