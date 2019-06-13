@@ -263,7 +263,7 @@ main section {
 
 main section h1 {
   font-family: 'Cinzel', serif;
-  font-weight: 300;
+  font-weight: 600;
   text-transform: uppercase;
   font-size: 2em;
   text-align: center;
@@ -307,7 +307,7 @@ main section.section-about .info {
 main section.section-about .info p {
   text-align: justify;
   font-size: 1.5em;
-  font-weight: 200;
+  font-weight: 300;
 }
 
 main section.section-offer {
@@ -595,6 +595,19 @@ main .contact-date {
   margin: 25px 0 0 0;
   -ms-flex-preferred-size: 49%;
       flex-basis: 49%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 main .contact-date h3 {
@@ -602,7 +615,7 @@ main .contact-date h3 {
   padding: 0;
   font-size: 1.4em;
   font-family: 'Cinzel', serif;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 main .contact-date h3.hours {
@@ -619,6 +632,7 @@ main .contact-date p {
   padding: 0;
   font-size: 1.2em;
   font-weight: 100;
+  text-align: center;
 }
 
 main .contact-date p a {
