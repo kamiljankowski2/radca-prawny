@@ -5,5 +5,5 @@ $('a.nav-link, a.nav-link-footer').on('click', function () {
     })
 
     $("ul.navbar-nav, a.nav-link-footer").removeClass("active")
-    $(".toggler").toggleClass("mobileOn")
+    $(".toggler").removeClass("mobileOn")
 })
