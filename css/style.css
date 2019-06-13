@@ -4,6 +4,7 @@ body {
   margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 body h1 {
@@ -642,6 +643,8 @@ main .contact-date p a {
 
 main .contact-date iframe {
   margin: 10px 0;
+  width: 400px;
+  height: 250px;
 }
 
 main .line {
@@ -932,6 +935,11 @@ main .line {
   main .contact-date p a {
     display: inline-block;
     margin: 0 20px;
+  }
+  main .contact-date iframe {
+    margin: 5px 0;
+    width: 400px;
+    height: 250px;
   }
   main .line {
     width: 90%;
