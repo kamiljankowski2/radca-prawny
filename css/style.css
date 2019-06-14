@@ -656,7 +656,7 @@ main .line {
 
 @media (max-width: 1024px) {
   main section h1 {
-    font-size: 1.3em;
+    font-size: 1.5em;
     margin: 10px;
   }
   main section.section-about {
@@ -685,7 +685,7 @@ main .line {
   }
   main section.section-about .info p {
     font-size: 1.3em;
-    margin: 0 30px;
+    margin: 0 5px;
   }
   main section.section-offer {
     -webkit-box-orient: vertical;
