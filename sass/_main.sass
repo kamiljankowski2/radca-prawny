@@ -52,6 +52,8 @@ main
                 flex-wrap: wrap
                 justify-content: space-between
                 margin: 0 0 0 40px
+                h1
+                    font-weight: 300
                 
                 
                 .offer-less-item:nth-of-type(1)
@@ -62,6 +64,7 @@ main
                     h1
                             
                             font-size: 2.5em
+ 
                 .offer-less-item
                     width: 48%
                     height: 200px
@@ -111,7 +114,7 @@ main
                 .offer-less-item:nth-of-type(3)
                     background-image: url(../images/family.jpg)
                 .offer-less-item:nth-of-type(4)
-                    background-image: url(../images/work.jpg)
+                    background-image: url(../images/testament.jpg)
                 .offer-less-item:nth-of-type(5)
                     background-image: url(../images/administration.jpg)
             .offer-more
@@ -158,13 +161,57 @@ main
                                 h1
                                     font-size: 3em
                                     margin: 0
+                                    font-weight: 300
                     a:hover 
                         background-color: rgba(0,0,0, 0.7)
                         p
                             opacity: 1
+        h4.full-offer
+            text-align: center
+            cursor: pointer
+
+
+        section.offer-details
+            display: none
+
+            div.details
+                display: flex
+                flex-wrap: wrap
+                justify-content: space-around
+
+
+                
+                h3
+                    font-family: 'Cinzel', serif
+                    font-size: 1.4em
+                    text-align: center
+            
+                .details-offer
+                    flex-basis: 26%
+                    ul
+                        padding: 0 20px
+                        text-align: justify
+                        
+                        li
+                            font-size: 1.2em
+                            padding: 5px 0
+                            list-style-type: square
+
+        section.offer-details.active
+
+            display: block
+
+            div.details.active 
+                opacity: 1
+                 
+                   
+
+
+                
+
         section.contact
             
-            margin: 50px 0 0 0
+            margin: 0px 0 0 0
             display: flex
             justify-content: space-around
             background-color: #F7F7F7
@@ -380,6 +427,25 @@ main
                                 h1
                                     font-size: 2em
                                     margin: 0
+
+        section.offer-details
+            margin: 0
+            div.details
+               
+                flex-direction: column                
+                h3            
+                .details-offer
+                   
+                    ul
+                        padding: 0 20px
+                        text-align: justify
+                        margin: 0 10px
+                        
+                        li
+                            font-size: 1.2em
+                            padding: 5px 0
+                            list-style-type: square
+
                    
                         
         section.contact
